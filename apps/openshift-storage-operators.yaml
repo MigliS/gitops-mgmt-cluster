@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: openshift-storage-operators
+  namespace: openshift-gitops
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/MigliS/gitops-mgmt-cluster.git
+    targetRevision: HEAD
+    path: manifests/openshift-storage-operators
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: openshift-gitops
+
