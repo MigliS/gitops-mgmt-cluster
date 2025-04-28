@@ -1,0 +1,17 @@
+apiVersion: config.openshift.io/v1
+kind: ImageTagMirrorSet
+metadata:
+  name: mirror
+spec:
+  imageTagMirrors:
+    - mirrors:
+        - harbor1.ocp.lab/quay
+      source: quay.io
+    - mirrors:
+        - harbor1.ocp.lab/registry.redhat.io
+        - harbor2.ocp.lab/registry.redhat.io
+      source: registry.redhat.io
+    - mirrors:
+        - harbor1.ocp.lab/registry.connect.redhat.com
+        - harbor2.ocp.lab/registry.connect.redhat.com
+      source: registry.connect.redhat.com
