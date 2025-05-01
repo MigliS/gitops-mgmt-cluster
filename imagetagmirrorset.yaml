@@ -5,7 +5,7 @@ metadata:
 spec:
   imageTagMirrors:
     - mirrors:
-        - harbor1.ocp.lab/quay
+        - harbor1.ocp.lab/quay.io
       source: quay.io
     - mirrors:
         - harbor1.ocp.lab/registry.redhat.io
