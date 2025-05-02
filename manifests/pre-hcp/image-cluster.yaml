@@ -4,5 +4,5 @@ metadata:
   name: cluster
 spec:
   additionalTrustedCA:
-    - name: registry-config
+    name: registry-config
 
