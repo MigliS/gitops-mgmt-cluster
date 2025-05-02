@@ -1,0 +1,134 @@
+apiVersion: v1
+data:
+  ca-bundle.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIFNzCCAx+gAwIBAgIUcejW7qo78O0ICZkgxPWm5uQ1LWQwDQYJKoZIhvcNAQEL
+    BQAwGjEYMBYGA1UEAwwPaGFyYm9yMS5vY3AubGFiMB4XDTI1MDMxNzE0MjM0NFoX
+    DTM1MDMxNTE0MjM0NFowGjEYMBYGA1UEAwwPaGFyYm9yMS5vY3AubGFiMIICIjAN
+    BgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAobQCcN/TDKmHho3UEEDJtam4/kPC
+    lpc9fCDrrtsDqwjK4TvOx90PfAya2ZJkUi30tgELfLOq8ZAyYq7HlbEB/jfsRqbO
+    eWt56td5T9BxtLgJUQ74eQHpeMUq7nosvm6bMoV7FrgA1P/xsMvGpfVnxJpwl3N/
+    AVH8IALUoE+DOGWUmJPxFnKQo4i37aPl0NdEQ4524mbUqoo+mhBh0TTdvdsJ0ZXb
+    zn1bnixAzMl4CK4KDkCzc/qKAk9xliZ7f0L5mZiFSaMgPsjOR5mk1miTDgzb2NJd
+    puo5ijB32aBkrYBFjtJ5mJJK/LxIUaOUtuAmDY3ChxU25h9C3OJLuC4xq2LlyOhm
+    N1ASGN7XFhmCXI3Zxn86DRz7BIiv1w5msmiz1e6P4jqF4kLkyAK9l2q6eCQ+PbBR
+    DO2oeWn9i0YXWuAhGv2vj6ocLlVseX0rP4kUS0nDcKvjdmKqupphE+UHMCTgSYaf
+    gn4vXJmA2s0hkP8oigqdIf3329gPfydS+vCB6YHkuf0qKh1wH3zSmTBXtBG0ZmYT
+    lP4fFopX3naqmL75G6AR0xplbKsjkeVOczj7z923PQZ+1scvtI8AZF6bJlG+tV0x
+    9JwqPWzFANa1q+I4hYByXw5qovv0/wtG9Wo7CSHCbKe3hZ/oyZ0fA10wRV3fNRlF
+    4v+TUGpQC5t0Ri0CAwEAAaN1MHMwHQYDVR0OBBYEFF1eS6+EVwwNRmOaWJvg7xAy
+    9qheMB8GA1UdIwQYMBaAFF1eS6+EVwwNRmOaWJvg7xAy9qheMA8GA1UdEwEB/wQF
+    MAMBAf8wIAYDVR0RBBkwF4IPaGFyYm9yMS5vY3AubGFihwTAqG8FMA0GCSqGSIb3
+    DQEBCwUAA4ICAQApJEyHhvG4of+51F/MwMy5sYhOTBuJUK9isd1j7mannn/1wQRT
+    CQW9Y/otxry2LDR6J5W8PWPan5/0P1hdH0zth+YQFXUo9T8EmzyS1/xEcCuSS1Yy
+    468hJXCo25hiAbR2Ja/nCUTYk5iYmAbw+kxRSVT04SyTb49dQmDzJ2DXqWNzI3Ga
+    tsNrP26V6rz9zKoilWIYE3hdbs+CNKd8pGV0cro3nc1w9yzhIv7TBXcIgucOnHqe
+    E3NgLSxZ/yk/AEMNCk4Hdrv8xXDsnlVTJBPE+qfRQ9jvU3yot++9OX+xcNuDsxtW
+    B8Tr8ltzBLblJj17Lr1KdC9PsDNJO3oEWcYVHoAjRYEpYCKSZcpX0x1QX7SBCaMt
+    7JSml3xGOJ6DC0l1vgiv5VP4CWeziPrlsqiKM+Yk0BGKRJKlWjpkFQEWjOx0rsPd
+    gPqCI6caXMNS7A6k77Ei7lC7DJTFWRjhbc+23u867hbpCrh5/bmkX1ACLGSEIEjW
+    gfrdDP64w3azcPV8EbIKeOI+SEvZSiJkm86aqKQptqqN4+qJ9vzwVEkKe6p53I9c
+    mVCHvyA8SNwV0MPF0+X1nNfnfjBdxxEn9Riwys0fRgLHf3Ec5SYZwHWkbj2mYPx3
+    /+Q+1pVb9YLPrv6D47JCNOlgojbjln7/lTpIXxPGoZ7OQLembnBLWspUzg==
+    -----END CERTIFICATE-----
+    -----BEGIN CERTIFICATE-----
+    MIIFNzCCAx+gAwIBAgIUATacRAK1nax+l0UBf8GAa1GPGWcwDQYJKoZIhvcNAQEL
+    BQAwGjEYMBYGA1UEAwwPaGFyYm9yMi5vY3AubGFiMB4XDTI1MDMxNzE0NTcyNVoX
+    DTM1MDMxNTE0NTcyNVowGjEYMBYGA1UEAwwPaGFyYm9yMi5vY3AubGFiMIICIjAN
+    BgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoGBDeRvjImDES5PzqJ3pAeMnWwV8
+    0Rdwbv7XYoabo5G16Z64iHstfMlQHXbBSqjgVkpAXY1Kscc1EJkZpIm6sOyeYyck
+    sIRBdlMIa7JvgGatSTJgGBMqPotoGAx1ZpM0PKsC5m8POShPUygowZm9dO5AL8Aq
+    Nz+iH5vQbdOPa8a8s7BVoGFuGWJLg6Az0S/2VnDtWYVyuMC+HAiGSs2mv0m7wkek
+    idulABwGocrrDzv/egPSrMMNMKGr5ybYGyPMo6q6jwNhgV+2SL/7I+a2vuLQip7N
+    FdZ3fI58ERFFC9Q3Of40mKD4d7NNnFF9jGdU4o6gaLoc27iekCZDMK+La/TeVsTR
+    qRuKAdF7xkt3tL0F+0IK2gq0kn6eIyUTKcvBorb+skR6gt3d+NDo+pTu3kOe3QfB
+    64O3iHvKuL4sn2YdpPLWJ/Pb01nU7P1pUZn0Ap5DhlKTKNRmu+ne4SqQa2MWADmk
+    eINEBpDCWuGqMHnQw2ln+dEGA6btpPF3F15J8XHss2sgrRXX8eSTI63emWRc5EMh
+    J7tBsCWvp/D0eyylFbDgmbn0hk2x7hYUQch//c2L5DzIEg0TfoO6/UNdP3uKr21a
+    VU2MPN+IJ0MynbSMsNZjv9P2UkFLS2Z4dqdMdrkG1cE5jfUR0A65A3wzf7dzoxLm
+    IY6mhQeSly+pDkUCAwEAAaN1MHMwHQYDVR0OBBYEFIM/bpJZ6CuSueLHVu/ph4E4
+    VvC0MB8GA1UdIwQYMBaAFIM/bpJZ6CuSueLHVu/ph4E4VvC0MA8GA1UdEwEB/wQF
+    MAMBAf8wIAYDVR0RBBkwF4IPaGFyYm9yMi5vY3AubGFihwTAqG8GMA0GCSqGSIb3
+    DQEBCwUAA4ICAQAKBI6NfqguvexUTjUcROT5R7WssOOZ5xKwCTaYAFBwd2F4en8K
+    9Re05Dp9ucDJR3tNRcVNETqi8UsqEuPZCz17f0GkF5H7aiphWkeqMPM1ud/iIeXi
+    OkYH8q3pemnuDR/hOMAXPbMQnElncOzoLIPOMnpH5Y39rDcNvSyicTgtOWgZCXLh
+    lZwNz2UdhWoNjCwoF1ny1tdaymUINe4KXfVdEnnl3wsNPjN9M62q6NjH4/kakEwe
+    dy7vOfMXr95/8rBHavCVJ8CepjSroEqbGkskMwaSf4k+Z4iqQTO+cAbkba6Z7ivZ
+    PmF5SjNhW+VYDyR9I7sWNAdQuWXHdMaChv8WSWOie71qA+fOJrWg7GhAywK8eSeO
+    /1cdji4KzYJcNRXP7LqQYmRlxQqq+tGkjw2RM0tIv/p4lss99m01Pu+fQ/QvdgJv
+    P9nH8n2ErUteFxX+zL+Dvq36+gzDiEq4KqLaCiEv0LtSG6K1m3O/AFnX76OVgMnh
+    7ICzsVd+YunMZ/gSHhRhOd729J+7/vkG+KHxRcjDF2UPgQfjZBDbVu0ul1hNvuiS
+    4Wn3b9qoneX8AqXyt8jgj5dWrY7AavCAc1/4aIqjXdD5j3a7sAV6Sf4m7kCDtFcL
+    rld1k5LFRHFh9nJLsncejWMnxXlt25wLvtH2O2lfdB350YQ8olvnDC6lhQ==
+    -----END CERTIFICATE-----
+  registries.conf: |
+    unqualified-search-registries = ["registry.access.redhat.com", "docker.io"]
+    short-name-mode = ""
+
+    [[registry]]
+      prefix = ""
+      location = "quay.io"
+
+      [[registry.mirror]]
+        location = "harbor1.ocp.lab/quay.io"
+        pull-from-mirror = "digest-only"
+
+      [[registry.mirror]]
+        location = "harbor2.ocp.lab/quay.io"
+        pull-from-mirror = "digest-only"
+
+      [[registry.mirror]]
+        location = "harbor1.ocp.lab/quay.io"
+        pull-from-mirror = "tag-only"
+
+      [[registry.mirror]]
+        location = "harbor2.ocp.lab/quay.io"
+        pull-from-mirror = "tag-only"
+
+    [[registry]]
+      prefix = ""
+      location = "registry.connect.redhat.com"
+
+      [[registry.mirror]]
+        location = "harbor1.ocp.lab/registry.connect.redhat.com"
+        pull-from-mirror = "digest-only"
+
+      [[registry.mirror]]
+        location = "harbor2.ocp.lab/registry.connect.redhat.com"
+        pull-from-mirror = "digest-only"
+
+      [[registry.mirror]]
+        location = "harbor1.ocp.lab/registry.connect.redhat.com"
+        pull-from-mirror = "tag-only"
+
+      [[registry.mirror]]
+        location = "harbor2.ocp.lab/registry.connect.redhat.com"
+        pull-from-mirror = "tag-only"
+
+    [[registry]]
+      prefix = ""
+      location = "registry.redhat.io"
+
+      [[registry.mirror]]
+        location = "harbor1.ocp.lab/registry.redhat.io"
+        pull-from-mirror = "digest-only"
+
+      [[registry.mirror]]
+        location = "harbor2.ocp.lab/registry.redhat.io"
+        pull-from-mirror = "digest-only"
+
+      [[registry.mirror]]
+        location = "harbor1.ocp.lab/registry.redhat.io"
+        pull-from-mirror = "tag-only"
+
+      [[registry.mirror]]
+        location = "harbor2.ocp.lab/registry.redhat.io"
+        pull-from-mirror = "tag-only"
+kind: ConfigMap
+metadata:
+  labels:
+    agent-install.openshift.io/watch: "true"
+    app: assisted-service
+    cluster.open-cluster-management.io/backup: "true"
+  name: custom-registries
+  namespace: multicluster-engine
