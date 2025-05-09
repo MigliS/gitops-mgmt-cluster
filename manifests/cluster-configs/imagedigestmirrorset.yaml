@@ -21,3 +21,7 @@ spec:
         - harbor1.ocp.lab/registry.connect.redhat.com
         - harbor2.ocp.lab/registry.connect.redhat.com
       source: registry.connect.redhat.com
+    - mirrors:
+        - harbor1.ocp.lab/registry.gitlab.com
+        - harbor2.ocp.lab/registry.gitlab.com
+      source: registry.gitlab.com
