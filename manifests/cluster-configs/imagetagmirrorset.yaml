@@ -19,3 +19,7 @@ spec:
         - harbor1.ocp.lab/registry.gitlab.com
         - harbor2.ocp.lab/registry.gitlab.com
       source: registry.gitlab.com
+    - mirrors:
+        - harbor1.ocp.lab/docker.io
+        - harbor2.ocp.lab/docker.io
+      source: docker.io
